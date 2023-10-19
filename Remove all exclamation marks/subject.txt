@@ -1,0 +1,18 @@
+Remove all exclamation marks from the end of sentence:
+
+
+Description:
+
+Remove all exclamation marks from the end of sentence.
+Examples
+
+"Hi!"     ---> "Hi"
+"Hi!!!"   ---> "Hi"
+"!Hi"     ---> "!Hi"
+"!Hi!"    ---> "!Hi"
+"Hi! Hi!" ---> "Hi! Hi"
+"Hi"      ---> "Hi"
+
+
+the function should be prototyped like this : 
+char *remove_marks(const char *str_in, char *str_out);
