@@ -1,14 +1,25 @@
-#include<stdio.h>
-char *capitalize_word(char *word)
+char *capitalize_word (char *word)
 {
-  if (word[0] >= 'a' && word[0] <= 'z')
-    word[0] = word[0] - 32;
-  return word;
-}
-int main()
-{
-	char name[] = "ayoub";
-	char *modifide = capitalize_word(name);
-	printf("%s\n", modifide);
-	return(0);
+  int	i;
+
+  i =	0;
+  while (word[i] != '\0')
+    i++;
+ 
+  char	*ptr;
+
+  ptr = (char *)malloc(i);
+ 
+  i =	0;
+  while (word[i] != '\0')
+  {
+    ptr[i] = word[i];
+    i++;
+  }
+  ptr[i] = '\0';
+  if (ptr[0] >= 'a' && ptr[0] <= 'z')
+  {
+    ptr[0] = toupper(ptr[0]);
+  }
+  return (ptr);
 }
