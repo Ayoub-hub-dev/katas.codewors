@@ -1,0 +1,8 @@
+Given the molecular mass of two molecules 𝑀1 M1 and 𝑀2 M2, 
+their masses present 𝑚1 m1 and 𝑚2 m2 in a vessel of volume 𝑉
+at a specific temperature 𝑇 find the total pressure 𝑃𝑡𝑜𝑡𝑎𝑙
+​exerted by the molecules. Formula to calculate the pressure is:
+
+P = ((M1/m1 + M2/m2)*RT)/V
+
+more Detailes : https://www.codewars.com/kata/5b7ea71db90cc0f17c000a5a/train/c
