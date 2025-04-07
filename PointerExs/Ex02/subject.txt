@@ -1,0 +1,17 @@
+Exercise 2: Swap two numbers
+Create a function that swaps the values of two integers using pointers.
+
+Prototype:
+	void swap(int *a, int *b);
+
+Test:
+
+	int main()
+	{
+		int a = 5;
+		int b = 10;
+		swap(&a, &b);
+		printf("a = %d, b = %d\n", a, b);
+		retrun (0);
+	}
+
