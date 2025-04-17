@@ -1,0 +1,8 @@
+Exercise 2: Add two numbers using pointers
+🔧 Task:
+Write a function that takes two integers (as pointers) and stores their sum in a third pointer.
+
+📘 Function Prototype:
+	void add(int *a, int *b, int *result);
+
+

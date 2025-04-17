@@ -1,0 +1,7 @@
+Exercise 5: Reverse two numbers using pointers
+🔧 Task:
+Write a function that takes two pointers to integers and swaps their values.
+
+Like this:
+
+	void reverse(int *a, int *b);

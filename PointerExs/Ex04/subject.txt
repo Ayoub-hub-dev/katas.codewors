@@ -1,0 +1,6 @@
+Exercise 3: Multiply using pointer to pointer
+🔧 Task:
+Write a function that takes a pointer to a pointer to an int (int **nbr) and sets the value to 21.
+
+📘 Prototype:
+	void set_to_21(int **nbr);

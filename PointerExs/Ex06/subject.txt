@@ -1,0 +1,6 @@
+Exercise 5: Fill an array using pointers
+🔧 Task:
+Write a function that fills an array of integers with numbers from 1 to n using pointers.
+
+📘 Prototype:
+	void fill_array(int *arr, int n);
