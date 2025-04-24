@@ -1,0 +1,6 @@
+Exercise 8: Find the smallest number in an array using pointers
+🔧 Task:
+Write a function that takes an array of integers and its size, and returns the smallest number in the array.
+
+📘 Prototype:
+	int find_min(int *arr, int size);

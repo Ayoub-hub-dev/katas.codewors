@@ -1,0 +1,6 @@
+Exercise 7: Reverse an array using pointers
+🔧 Task:
+Write a function that reverses the content of an integer array in-place using pointers.
+
+📘 Prototype:
+	void reverse_array(int *arr, int size);
