@@ -1,0 +1,7 @@
+Exercise 9: Sum all values in an array using a pointer
+🔧 Task:
+Write a function that takes an array and its size, and returns the sum of all values using pointer arithmetic.
+
+📘 Prototype:
+
+	int sum_array(int *arr, int size);

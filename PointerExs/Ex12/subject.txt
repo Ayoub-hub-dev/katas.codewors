@@ -1,0 +1,7 @@
+Exercise 11: Reverse an array using only pointers
+🔧 Task:
+Write a function that reverses the content of an array in-place using only pointers.
+
+📘 Prototype:
+
+	void reverse_array(int *arr, int size);

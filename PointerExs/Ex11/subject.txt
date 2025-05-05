@@ -1,0 +1,7 @@
+Exercise 10: Copy an array into another using pointers
+🔧 Task:
+Write a function that copies all values from one array to another, using only pointers (no indexing like arr[i]).
+
+📘 Prototype:
+
+	void copy_array(int *src, int *dest, int size);

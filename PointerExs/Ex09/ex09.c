@@ -8,8 +8,8 @@ int find_min(int *arr, int size)
 	result = arr[0];
 	while(i < size)
 	{
-		if (arr[i] < result)
-			result = arr[i];
+		if (*(arr + i) < result)
+			result = *(arr + i);
 		i++;
 	}
 	return (result);
