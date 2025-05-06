@@ -1,0 +1,7 @@
+Exercise 12: Count how many even numbers are in an array
+🔧 Task:
+Write a function that goes through an integer array and returns how many elements are even.
+
+📘 Prototype:
+
+	int count_even(int *arr, int size);

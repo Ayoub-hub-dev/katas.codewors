@@ -1,0 +1,9 @@
+Exercise 16: Find the average of array values using pointers
+
+
+Prototype:
+	float find_average(int *arr, int size);
+
+
+Task:
+	Loop through the array using pointers only, and return the average (as a float) of all values.

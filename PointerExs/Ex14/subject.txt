@@ -1,0 +1,3 @@
+Exercise 14: Count how many values are greater than a given number
+✅ Prototype:
+	int count_greater_than(int *arr, int size, int threshold);
