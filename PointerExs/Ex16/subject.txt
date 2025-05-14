@@ -1,0 +1,10 @@
+Exercise 17: Find the first even number in an array using pointers
+
+
+✅ Prototype:
+	int *find_first_even(int *arr, int size);
+
+🔧 Task:
+Write a function that returns a pointer to the first even number in the array. If no even number is found, return NULL.
+
+

@@ -1,0 +1,7 @@
+Exercise 18: Replace all negative numbers in an array with zero
+✅ Prototype:
+	void replace_negatives(int *arr, int size);
+
+
+🔧 Task:
+Write a function that loops through the array using pointers and replaces any negative number with 0.
